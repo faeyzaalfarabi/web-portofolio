@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ======== style umum ============ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body a{
+    text-decoration: none;
+}
+
+body {
+    font-family: "poppins";
+    background: #222831;
+    color: white;
+}
+
+/* memperbagus scrollbar */
+/* Ukuran scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #00ADB5, #02f2ff); 
+    border-radius: 10px;
+}
+
+
+section {
+    height: 100vh;
+    padding: 90px;
+    display: flex;
+    border-bottom: #00ADB5 solid 1px;
+    /* margin: auto; */
+}
+
+.container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+/* ======== style umum ============ */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+    border-bottom: 1px solid white;
+    position: fixed;
+    width: 100%;
+    background-color: #222831;
+}
+
+
+.atas ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.atas li {
+    list-style: none;
+}
+
+.atas li a {
+    transition: all 0.3s ease-in-out;
+}
+
+.atas li a:hover {
+    color: aqua;
+}
+
+
+.main-header a {
+    color: white;
+}
+
+
+/* bagian home */
+
+h1 {
+    font-size: 96px;
+    line-height: 7rem;
+
+}
+
+.image img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.button {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button a {
+    margin-right: 12px;
+    padding: 10px 32px;
+    background-color: #00ADB5;
+    color: white;
+    border-radius: 90px;
+
+}
+
+.button .CV {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #393E46;
+}
+
+/*============================= bagian about me ================================================= */
+h2 {
+    font-size: 90px;
+}
+
+.logo-med a{
+    font-size: 50px;
+    color: #02f2ff;
+}
+
+/*============================================================= bagian skills =============================================== */
+.sec-skill .skill {
+    flex-direction: column;
+    justify-content: center;
+    gap: 54px;
+}
+
+.ikon i {
+    font-size: 100px;
+    color: aqua;
+
+}
+
+.ikon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #393E46;
+    padding: 32px;
+}
+
+.text-icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 12px;
+    /* padding: 12px; */
+}
+
+.all-ikon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+/* ============================ bagian project ================================================= */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    color: #222831;
+    background-color: white;
+    border-radius: 4px;
+    /* padding: 8px; */
+    width: 270px;
+    gap: 10px;
+}
+
+
+.card img {
+    margin-top: 0px;
+}
+
+.tulisan-dalam {
+    display: flex;
+    gap: 15px;
+}
+
+.tulisan-dalam p{
+    background-color: aqua;
+    border-radius: 10px;
+    padding-block: 4px;                  /* jarak diatas dan dibawah */
+    padding-inline: 10px;               /* jarak kanan kiri */
+    font-size: 12px;
+}
+
+.project{
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #02f2ff; */
+
+}
+
+.sub-project{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 100px;
+}
+
+.container-text{
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+/* ======================================= bagian closing ========================================= */
+
+.closing{
+    margin: auto;
+
+}
+.closing ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.closing li i{
+    font-size: 40px;
+    color: aqua;
+}
+
+.closing li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+li a{
+    color: white;
+}
+
+/* ===================================== bagian footeeeeerrrrr ======================================== */
